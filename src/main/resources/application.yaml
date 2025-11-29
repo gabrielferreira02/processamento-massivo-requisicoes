@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: processamentoMassivoRequisicoes
+  rabbitmq:
+    host: ${SPRING_RABBITMQ_HOST}
+    port: 5672
+    username: guest
+    password: guest
